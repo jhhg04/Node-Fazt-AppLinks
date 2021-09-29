@@ -1,0 +1,19 @@
+Nodejs y Mysql, Aplicación Completa (Login, Registro, CRUD, ES6+ y Más )
+min 1:34:00
+
+$ npm init --yes
+
+$ npm install express express-handlebars express-session mysql express-mysql-session morgan bcryptjs passport passport-local timeago.js connect-flash express-validator
+
+$ npm install nodemon -D
+
+$ app-links/src/ mkdir lib public routes views 
+
+ "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+
+$ npm run dev  
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+flush privileges;
